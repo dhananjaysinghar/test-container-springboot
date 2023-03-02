@@ -1,0 +1,14 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/test_database
+    username: test_user
+    password: test_password
+    pool:
+      enabled: true
+      max-size: 10
+      initial-size: 5
+
+
+logging:
+  level:
+    root: INFO
